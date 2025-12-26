@@ -1,31 +1,58 @@
 h1 {
-    font-size: 30px;
+    font-size: 60px;
     text-align: center;
-    margin-bottom: 30px;
+    margin-bottom: 0%;
+    font-weight: 700;
+    background-color: rgb(245, 243, 213);
+     border-bottom: 2px solid #080909;
+     border-top: 2px solid #080909;
+     padding: 8px;
+    /* border-width: 1px; */ */
+    /* display: inline-block; */
 }
 
 h2 {
     text-align: center;
+    font-size: 40px;
+    box-shadow: 0 0 5px #02352c;
+    background-color: rgb(120, 190, 172);
+    display: inline-block;
 }
 
 h3 {
+    display: inline-block;
     text-align: center;
-    border-bottom: 2px solid #ccc;
+    /* border-bottom: 2px solid #080101; */
     padding-bottom: 5px;
+    font-size: 40px;
+    box-shadow: 0 0 5px #02352c;
+    background-color: rgb(243, 211, 231);
+    padding: 8px;
 }
 
 p {
-    font-size: 20px;
+    font-size: 35px;
     text-align: center;
-    max-width: 500px;
+    max-width: 900px;
     margin: auto;
-    border-bottom: 2px solid #ccc;
+    border-bottom: 2px solid #f6f6f6;
     padding-bottom: 5px;
-    flex-grow: 1;
+    /* box-shadow: 0 0 5px #02352c;
+    background-color: rgb(243, 211, 231); */
+    /* flex-grow: 1; */
+    /* background-color: #d8bfd7; */
+    padding: 30px;
+    /* box-shadow: 0 0 10px #02352c; */
 }
 
 footer {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    background: rgb(91, 89, 89);
+    color: white;
     text-align: center;
+    padding: 10px;
 }
 
 img {
@@ -39,23 +66,59 @@ img {
     object-fit: cover;
 }
 
-ul {
-    /* list-style-type: none; */
-    padding-left: none;
+main ul {
+    list-style-type: none;
+    /* padding-left: 25px; */
     /* background-color: #d8c3c3; */
-    border: #c67979;
-    border-radius: 0px;
+    /* margin-left: 0%; */
+    /* border: #554747; */
+    border-radius: 10px;
     text-align: center;
-    display: flex;
-    flex-wrap: wrap;
-    gap: 20px;
+    /* display: flex; */
+    /* flex-wrap: wrap; */
+    /* gap: 10px; */
+    /* display: inline-block; */
+    font-size: 30px;
+    padding-bottom: 5px;
+}
+
+main li {
+    /* border: 1px solid #0e0000; */
+    /* border-radius: 10px; */
+    padding: 20px;
+    box-shadow: 0 0 5px #02352c;
+    flex-basis: 200px;
+    margin-top: 20px;
+    margin-left: 600px;
+    margin-right: 600px;
+}
+
+body {
+    background-image: url("nezuko.jpeg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+}
+
+a {
+    text-decoration: none;
 
 }
 
-li {
-  background-color: rgb(221, 236, 233);   
-  border: 1px solid #0e0000;    
-  border-radius: 10px;       
-  padding: 20px;             
-  box-shadow: 0 0 10px #02352c; 
+.navbar {
+    display: flex;
+    align-items: center;
+}
+
+.navbar ul {
+    margin-left: auto;
+    display: flex;
+    list-style: none;
+    gap: 10px;
+}
+
+main {
+    text-align: center;
+
 }
