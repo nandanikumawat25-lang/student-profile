@@ -7,8 +7,6 @@ h1 {
      border-bottom: 2px solid #080909;
      border-top: 2px solid #080909;
      padding: 8px;
-    /* border-width: 1px; */ */
-    /* display: inline-block; */
 }
 
 h2 {
@@ -22,7 +20,6 @@ h2 {
 h3 {
     display: inline-block;
     text-align: center;
-    /* border-bottom: 2px solid #080101; */
     padding-bottom: 5px;
     font-size: 40px;
     box-shadow: 0 0 5px #02352c;
@@ -37,12 +34,7 @@ p {
     margin: auto;
     border-bottom: 2px solid #f6f6f6;
     padding-bottom: 5px;
-    /* box-shadow: 0 0 5px #02352c;
-    background-color: rgb(243, 211, 231); */
-    /* flex-grow: 1; */
-    /* background-color: #d8bfd7; */
     padding: 30px;
-    /* box-shadow: 0 0 10px #02352c; */
 }
 
 footer {
@@ -68,23 +60,13 @@ img {
 
 main ul {
     list-style-type: none;
-    /* padding-left: 25px; */
-    /* background-color: #d8c3c3; */
-    /* margin-left: 0%; */
-    /* border: #554747; */
     border-radius: 10px;
     text-align: center;
-    /* display: flex; */
-    /* flex-wrap: wrap; */
-    /* gap: 10px; */
-    /* display: inline-block; */
     font-size: 30px;
     padding-bottom: 5px;
 }
 
 main li {
-    /* border: 1px solid #0e0000; */
-    /* border-radius: 10px; */
     padding: 20px;
     box-shadow: 0 0 5px #02352c;
     flex-basis: 200px;
